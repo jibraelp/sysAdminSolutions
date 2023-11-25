@@ -6,7 +6,7 @@
     <title>SysAdmin Solutions</title>
     <style>
         body {
-            font-family: 'Times New Roman', sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -15,23 +15,21 @@
         }
 
         header {
-            background-color: #333;
+            background-color: #2c3e50; /* Dark Gray-Blue */
             color: #fff;
             text-align: center;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            padding: 15px; /* Adjusted padding */
         }
 
         header img {
-            max-width: 100%;
+            max-width: 80%; /* Slightly reduced logo size for balance */
             height: auto;
             margin-bottom: 10px;
         }
 
-        h1, h2, h3 {
-            color: #333;
+        h1 {
+            color: #ecf0f1; /* Light Gray */
+            margin: 10px 0; /* Adjusted margin */
         }
 
         section {
@@ -39,23 +37,34 @@
         }
 
         .overview, .about, .services, .industries {
-            background-color: #fff;
+            background-color: #ecf0f1; /* Light Gray */
             border-radius: 8px;
             margin-bottom: 20px;
             padding: 20px;
+            text-align: left; /* Left-aligned content for a modern look */
         }
 
         .about h3, .overview h3, .services h3, .industries h3 {
-            color: #333;
+            color: #2c3e50; /* Dark Gray-Blue */
         }
 
         .about p, .overview p, .services p, .industries p {
-            color: #666;
+            color: #555; /* Slightly darker text color */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        li {
+            margin-bottom: 8px; /* Adjusted margin for better readability */
         }
 
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: #2c3e50; /* Dark Gray-Blue */
+            color: #ecf0f1; /* Light Gray */
             text-align: center;
             padding: 10px;
             position: fixed;
@@ -75,9 +84,9 @@
     <section class="about">
         <h2>About Us</h2>
         <p><strong>Jibrael Pirzada</strong></p>
-        <p>Founder of SysAdmin Solutions</p>
-        <p>Information System and Security Engineer</p>
-        <p><strong>LinkedIn:</strong>https://www.linkedin.com/in/jibrael-pirzada-731a24168/</p>
+        <p style="font-size: 12px;">Founder of SysAdmin Solutions</p>
+        <p style="font-size: 12px;">Information System and Security Engineer</p>
+        <p style="font-size: 12px;"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jibrael-pirzada-731a24168/" target="_blank">Jibrael Pirzada's LinkedIn</a></p>
     </section>
 
     <section class="overview">
@@ -87,12 +96,13 @@
 
     <section class="services">
         <h2>Services</h2>
-            <p>Documentation of Processes and Procedures</p>
-            <p>Hardware and Software Troubleshooting</p>
-            <p>Report and Gap Analysis</p>
-            <p>Third-Party Risk Management</p>
-            <p>IT Support</p>
-            <p>Utilization/Optimization of Company Applications and Tools</p>
+        <ul>
+            <li>Documentation of Processes and Procedures</li>
+            <li>Hardware and Software Troubleshooting</li>
+            <li>Report and Gap Analysis</li>
+            <li>Third-Party Risk Management</li>
+            <li>IT Support</li>
+            <li>Utilization and Optimization of Company Applications and Tools</li>
         </ul>
     </section>
 
@@ -100,15 +110,15 @@
         <h2>Industries</h2>
         <div>
             <h3>Retail</h3>
-            <p>Assisting Retail establishments in providing customers with a seamless experience for all things technical. </p>
+            <p>Enabling retail establishments to provide customers with a seamless experience for all things technical.</p>
         </div>
         <div>
             <h3>Financial Institutions</h3>
-            <p>Enabling Financial Institutions to build foundations, integrate solutions, and to be the future of finance.</p>
+            <p>Enabling financial institutions to build foundations, integrate solutions, and to be the future of finance.</p>
         </div>
         <div>
             <h3>Manufacturing</h3>
-            <p>Serving Manufacturing Firms to win in the digital economy, optimize processes and overall workflows.</p>
+            <p>Enabling manufacturing firms to win in the digital economy, optimize processes and overall workflows.</p>
         </div>
     </section>
 
@@ -118,6 +128,7 @@
 
 </body>
 </html>
+
 
     </footer>
 
