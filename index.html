@@ -11,45 +11,50 @@
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            text-align: center;
         }
 
         header {
-            background-color: #007bff;
+            background-color: #333;
             color: #fff;
             text-align: center;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         header img {
-            max-width: 100px;
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
         }
 
         section {
             padding: 20px;
         }
 
-        h2 {
-            color: #007bff;
-        }
-
-        .about, .services, .industries {
+        .overview, .about, .services, .industries {
             background-color: #fff;
             border-radius: 8px;
             margin-bottom: 20px;
             padding: 20px;
         }
 
-        .services ul {
-            list-style-type: none;
-            padding: 0;
+        .about h3, .overview h3, .services h3, .industries h3 {
+            color: #333;
         }
 
-        .industries p {
-            font-style: italic;
+        .about p, .overview p, .services p, .industries p {
+            color: #666;
         }
 
         footer {
-            background-color: #007bff;
+            background-color: #333;
             color: #fff;
             text-align: center;
             padding: 10px;
@@ -67,16 +72,16 @@
         <h1>SysAdmin Solutions</h1>
     </header>
 
-    <section class="overview">
-        <h2>Overview</h2>
-        <p>SysAdmin Solutions is a leading provider of comprehensive IT services, specializing in cybersecurity, hardware and software troubleshooting, documentation of processes and procedures, report and gap analysis, third-party risk management, IT support, and the utilization and optimization of company applications and tools. We are committed to delivering cutting-edge solutions that empower businesses across various sectors to thrive in the digital era.</p>
-    </section>
-
     <section class="about">
         <h2>About Us</h2>
         <p><strong>Jibrael Pirzada</strong></p>
         <p>Founder of SysAdmin Solutions</p>
         <p>Information System and Security Engineer</p>
+    </section>
+
+    <section class="overview">
+        <h2>Overview</h2>
+        <p>SysAdmin Solutions is a leading provider of comprehensive IT services, specializing in various technical sectors. We are committed to delivering cutting-edge solutions that empower businesses across various sectors to thrive in the digital era.</p>
     </section>
 
     <section class="services">
@@ -95,20 +100,25 @@
         <h2>Industries</h2>
         <div>
             <h3>Retail</h3>
-            <p>Enabling retail firms to win in the digital economy, better serve customers, and be the future of retail.</p>
+            <p>Enabling retail establishments to provide customers with a seamless experience for all things technical. </p>
         </div>
         <div>
             <h3>Financial Institutions</h3>
-            <p>Enabling financial institutions to win in the digital economy, better serve customers, and be the future of finance.</p>
+            <p>Enabling financial institutions to build foundations, integrate solutions, and to be the future of finance.</p>
         </div>
         <div>
             <h3>Manufacturing</h3>
-            <p>Enabling manufacturing firms to win in the digital economy, better serve customers, and be the future of manufacturing.</p>
+            <p>Enabling manufacturing firms to win in the digital economy, optimize processes and overall workflows.</p>
         </div>
     </section>
 
     <footer>
         &copy; 2023 SysAdmin Solutions
+    </footer>
+
+</body>
+</html>
+
     </footer>
 
 </body>
