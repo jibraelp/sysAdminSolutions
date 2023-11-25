@@ -25,6 +25,8 @@
             max-width: 80%;
             height: auto;
             margin-bottom: 8px;
+            border: 3px solid #bdc3c7; /* Metallic Grey border */
+            border-radius: 8px;
         }
 
         h1 {
@@ -42,10 +44,12 @@
             margin-bottom: 20px;
             padding: 20px;
             text-align: center;
+            border: 3px solid #bdc3c7; /* Metallic Grey border */
         }
 
         .about h3, .overview h3, .services h3, .industries h3 {
             color: #fff; /* White text */
+            text-decoration: underline; /* Underline section headers */
         }
 
         .about p, .overview p, .services p, .industries p {
@@ -76,10 +80,15 @@
 <body>
 
     <header>
-    
+        <!-- Replace 'logo.png' with your actual logo image path -->
         <img src="logo.png" alt="SysAdmin Solutions Logo">
         <h1>sysAdmin Solutions</h1>
     </header>
+
+    <section class="overview">
+        <h2>Overview</h2>
+        <p>SysAdmin Solutions is a leading provider of comprehensive IT services, specializing in various technical sectors. We are committed to delivering cutting-edge solutions that empower businesses across various sectors to thrive in the digital era.</p>
+    </section>
 
     <section class="about">
         <h2>About Us</h2>
@@ -87,11 +96,6 @@
         <p style="font-size: 12px;">Founder of SysAdmin Solutions</p>
         <p style="font-size: 12px;">Information System and Security Engineer</p>
         <p style="font-size: 12px;"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jibrael-pirzada-731a24168/" target="_blank">Jibrael Pirzada's LinkedIn</a></p>
-    </section>
-
-    <section class="overview">
-        <h2>Overview</h2>
-        <p>SysAdmin Solutions is a leading provider of comprehensive IT services, specializing in various technical sectors. We are committed to delivering cutting-edge solutions that empower businesses across various sectors to thrive in the digital era.</p>
     </section>
 
     <section class="services">
